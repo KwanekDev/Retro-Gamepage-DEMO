@@ -1,103 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Placeholder Capital</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOREST ECHO | Official Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="cursor"></div>
 
-  <header class="nav glass">
-    <div class="logo">Placeholder<span>Capital</span></div>
-    <nav class="links">
-      <a href="#offer">Offer</a>
-      <a href="#team">Team</a>
-      <a href="#process">Process</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <canvas id="bg-canvas"></canvas>
+    <div class="scanline-overlay"></div>
 
-  <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-inner glass">
-      <h1>Investing, Refined.</h1>
-      <p>A modern, transparent capital management approach crafted with fluid elegance.</p>
-      <button class="btn-glass">Get Started</button>
+    <div class="main-wrapper">
+        
+        <header>
+            <div class="brand">EXAMPLE.exe</div>
+            <nav>
+                <a href="#hero" class="nav-link">[ HOME ]</a>
+                <a href="#story" class="nav-link">[ STORY ]</a>
+                <a href="#specs" class="nav-link">[ SPECS ]</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero" class="hero-section">
+                <h1 class="glitch-text" data-text="FOREST ECHO">WADOWICE 2088</h1>
+                <p class="subtitle">A connection has been established...</p>
+                
+                <div class="game-card">
+                    <div class="pixel-art-box">
+                        <div class="placeholder-art">
+                            <div class="tree-icon"></div>
+                            <span>COVER_ART.png</span>
+                        </div>
+                    </div>
+                    
+                    <div class="game-info">
+                        <h2>> INITIALIZE_GAME</h2>
+                        <p>
+                            Step into a realm of rising shadows, where young warrior Analan Gnoj crushes the undead with fearless resolve.
+                        </p>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="label">GENRE</span>
+                                <span class="value">HORROR BASED ON FACTS</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="label">VER</span>
+                                <span class="value">1.0.4</span>
+                            </div>
+                        </div>
+
+                        <button class="retro-btn">
+                            <span>DOWNLOAD [WIN]</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="divider">
+
+            <section id="story" class="content-section">
+                <h2 class="section-title">/ LOG_ENTRY_01: THE LORE</h2>
+                <div class="story-container">
+                    <div class="text-block">
+                        <p>> YEAR: 2088</p>
+                        <p>> LOCATION: SECTOR 7 "STANISLAW DOLNY"</p>
+                        <br>
+                        <p>
+                            It began with a tremor. A shiver in the soil beneath the ruined valley, where the dead stirred restlessly. From the cracked earth rose the first zombie, and young warrior Analan Gnoj stepped forward, blades drawn, knowing the ground itself had chosen him to end what had awakened.
+                        </p>
+                        <br>
+                        <p>
+                            You follow Analan Gnoj, the lone survivor who rises after the plague-nightfall. The zombies here are slow, broken, and whispering fragments of the lives they once had. They speak of the “Bone Pulse,” a dead signal rippling through their veins, pushing them toward something buried deep beneath the battlefield—something only he can face.
+                        </p>
+                    </div>
+                    <div class="pixel-art-box small-box">
+                        <div class="placeholder-art">
+                            <span>SCENE_01.gif</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="divider">
+
+            <section id="specs" class="content-section">
+                <h2 class="section-title">/ SYSTEM_REQUIREMENTS</h2>
+                
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span>sys_req.txt</span>
+                    </div>
+                    <div class="terminal-body">
+                        <table class="specs-table">
+                            <thead>
+                                <tr>
+                                    <th>COMPONENT</th>
+                                    <th>MINIMUM</th>
+                                    <th>RECOMMENDED</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>OS</td>
+                                    <td>Windows 10</td>
+                                    <td>Windows 11</td>
+                                </tr>
+                                <tr>
+                                    <td>PROCESSOR</td>
+                                    <td>Intel Core i3</td>
+                                    <td>Intel Core i5</td>
+                                </tr>
+                                <tr>
+                                    <td>MEMORY</td>
+                                    <td>4 GB RAM</td>
+                                    <td>8 GB RAM</td>
+                                </tr>
+                                <tr>
+                                    <td>GRAPHICS</td>
+                                    <td>Intel HD 4000</td>
+                                    <td>GTX 1050 Ti</td>
+                                </tr>
+                                <tr>
+                                    <td>STORAGE</td>
+                                    <td>500 MB Space</td>
+                                    <td>500 MB Space</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="blink-cursor">> END OF FILE_</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>SYSTEM READY. COPYRIGHT 2025 KWANEK.</p>
+        </footer>
     </div>
-  </section>
 
-  <section class="section" id="offer">
-    <h2 class="section-title">What We Offer</h2>
-    <div class="cards">
-      <div class="card glass">
-        <h3>Analysis</h3>
-        <p>Market insights, risk forecasts, data-driven decisions.</p>
-      </div>
-      <div class="card glass">
-        <h3>Strategy</h3>
-        <p>Long-term, efficient, and adaptive investment plans.</p>
-      </div>
-      <div class="card glass">
-        <h3>Automation</h3>
-        <p>Automated execution powered by smart analytics.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section dark" id="process">
-    <h2 class="section-title">How We Work</h2>
-    <div class="steps">
-      <div class="step glass">
-        <span class="n">01</span>
-        <p>We collect data and assess risk.</p>
-      </div>
-      <div class="step glass">
-        <span class="n">02</span>
-        <p>We build predictive models.</p>
-      </div>
-      <div class="step glass">
-        <span class="n">03</span>
-        <p>We execute strategy and monitor live.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="team">
-    <h2 class="section-title">Our Team</h2>
-    <div class="team">
-      <div class="person glass">
-        <div class="avatar"></div>
-        <h3>First Last</h3>
-        <p>Lead Analyst</p>
-      </div>
-      <div class="person glass">
-        <div class="avatar"></div>
-        <h3>First Last</h3>
-        <p>Strategy Expert</p>
-      </div>
-      <div class="person glass">
-        <div class="avatar"></div>
-        <h3>First Last</h3>
-        <p>Technical Lead</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-section" id="contact">
-    <div class="cta-box glass">
-      <h2>Ready to Collaborate?</h2>
-      <p>Reach out to learn more about how we can grow together.</p>
-      <button class="btn-glass btn-contact">Contact Us</button>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <p>© 2025 Placeholder Capital</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
